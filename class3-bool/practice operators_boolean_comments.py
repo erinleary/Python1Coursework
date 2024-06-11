@@ -80,3 +80,73 @@ print(val_three)
 val_four=14
 val_four %=5
 print(val_four)
+
+#Refactor me! Using split editor windows to copy paste
+fahrenheit=89 #temp to convert
+celsius =(fahrenheit-32)*5/9
+print(celsius) #output
+
+fahrenheit=89
+fahrenheit -=32 #parenthesis
+fahrenheit *=5/9 #multiplication/division
+celsius=fahrenheit
+print (celsius)
+
+'''Boolean Operators'''
+#is 7 less than 5?
+print(7 <5)
+result=(7<8)
+print (result)
+
+result=(7<5)
+print("Is 7 less than 5?", result) #Is 7 question is a string, the result is a boolean (True/False expression)
+
+comparative=(4<=4)
+print ("Is four less than or equal to 4?", comparative)
+
+#Is 6>2
+result=(6>2)
+print ("Is 6 greater than 2?", result)
+
+#Is 5>=6
+result=(5>=6)
+print ("Is five greater than or equal to six?", result)
+
+#Is 5=5
+result=(5==5)
+print ("Is five equal to five?", result)
+
+#And Functions
+"""
+true-true = true
+false-true = false
+false-false = false
+"""
+
+log_1 = (5==3)
+log_2 = (4==7)
+print ("Log 1", log_1)
+print ("Log 2", log_2)
+print ("Log 1 and Log 2)", log_1 and log_2)
+
+#Or
+print ("Playing with Or function", 5==5 or 5==3) #True if at least 1 is true
+
+#Not
+Is_it_autumn=True
+print("Is it autumn?", not Is_it_autumn)
+
+x=11
+y=10
+
+#Is x less than y?
+print ("Is x less than Y", x<y)
+
+#Are we the same object?
+fname='Taylor'
+first_name='Taylor'
+#print(fname is first_name)
+#print(fnam ==first_name)
+
+#in
+print ('J' in January)
