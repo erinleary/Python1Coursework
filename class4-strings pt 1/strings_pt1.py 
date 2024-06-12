@@ -1,0 +1,24 @@
+fav_food='broccoli'
+result=fav_food*10
+print(result)
+
+
+Is 'a' in giraffe?
+Is 'z' in birthday?
+Is 'w' in wrapping?
+
+print ('a' in 'giraffe')
+print ('z' in 'birthday')
+print ('w' in wrapper)
+
+'''
+Using the len funciton, find the number of characters in the follow strings
+Pardon
+Halloween
+Ice Cream
+Tank 
+Laptop
+'''
+
+length_of_string_pardon=len('Pardon')
+print (length_of_string_pardon)
