@@ -1,0 +1,122 @@
+fav_food='broccoli'
+result=fav_food*10
+print(result)
+
+'''
+Is 'a' in giraffe?
+Is 'z' in birthday?
+Is 'w' in wrapping?
+'''
+
+print ('a' in 'giraffe')
+print ('z' in 'birthday')
+print ('w' in 'wrapper')
+
+'''
+Using the len function, find the number of characters in the follow strings
+Pardon
+Halloween
+Ice Cream
+Tank 
+Laptop
+'''
+
+length_of_string_pardon=len('Pardon')
+print (length_of_string_pardon)
+
+pardon=len('Pardon')
+print(pardon)
+halloween=len('Halloween')
+ice_cream=len('Ice Cream') #space will count in the len character count\
+tank=len('Tank')
+laptop=len('laptop')
+
+print(pardon, halloween, ice_cream, tank, laptop)
+
+color='blue'
+color=color.capitalize() 
+print(color)
+#capitalize is a method of the string class
+
+#casefold() converts string into lower case
+name_one='sIMoN'
+name_two='SimON'
+print (name_one==name_two)
+#didn't complete this because i went to the bathroom and missed content
+
+#count() returns the number of times a specific value occurs
+my_string='abracadabra'
+
+letter_count=my_string.count('a')
+print(letter_count)
+
+#start end parameter
+my_string='abracadabra'
+'''
+letter_count_with_start_stop=my_string('a', 0, 5)
+print(letter_count_with_start_stop)
+Not sure why this call is working. error is saying 'TypeError: 'str' object is not callable'
+'''
+
+tree='Maple'
+find_letter_p=tree.count('p',0,3)
+#looking for 'p' in the first three letters of 'tree'; this can be used for spelling? starting spot 0, ending spot 3
+
+#expandtabs() Sets the tab size of the string (creates tab alignments)
+testing_tabs='Happy\tWednesday\tEveryone!'
+print(testing_tabs)
+
+ten_characters=testing_tabs.expandtabs(10)
+fifteen_characters=testing_tabs.expandtabs(15)
+twenty_characters=testing_tabs.expandtabs(20)
+
+#10, 15, and 20 are arguments, expand tabs takes one parameter
+print(ten_characters)
+print(fifteen_characters)
+print(twenty_characters)
+
+#find() searches the string for a specified value and returns the position of where it was found
+day='Tuesday'
+month='June'
+movie='Lord of The Rings'
+
+#find position of e in day
+letter_e=day.find('e')
+print('The letter e appears at the {letter_e} position in {day}')
+#Realizing here that when I was trying to do formatted string, I was using parentheses when I should have been using curly brackets, but actually that's not working yet!
+
+#find the position of J in month
+
+letter_j=month.find('j')
+# still error print('The letter j appears in the word {month} at position {letter_j}')
+
+#find the position of R in movie
+# letter_r=movie.find('r')
+#print () #insert formatted string
+
+#find the position of 'b' in movie
+# letter_b=movie.find('b')
+#still not getting correct statement with formatted string print('The letter b appears at the {letter_b} position in {movie}')
+
+#index() Searches the string for a specified value and returns the position of where is found. Sounds like Find, but actually, this will throw back an error?
+fav_sport='football'
+letter_b=fav_sport.index('b')
+print(letter_b)
+#note this comes up as SyntaxError: invalid syntax. Others are getting a ValueError
+
+'''
+Create a variable called index_of_y and apply the index string method to locate the index position of letter y. What happens if we try to locate a letter that does not exist in our string?
+'''
+fav_car='toyota'
+# COME BACK HERE TO FIGURE OUT MISTAKES index_of_y #NEED TO BUILD THIS OUT A BIT
+
+#isalnum() Returns True if all characters in the string are alphanumeric(Letters and Numbers)
+#Should come up and say True/False
+
+word_four='sdfsfdf'
+test_user_input_for_alphanumeric=word_four.isalnum
+print(word_four.isalnum)
+
+'''
+Take time to figure out isdecimal(), isalpha(), etc.
+'''
